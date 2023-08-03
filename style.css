@@ -1,0 +1,30 @@
+header { 
+ background-color: rgb(243, 47, 112);
+
+}
+body{ 
+ background-color: blanchedalmond;
+
+}
+@media screen and (max-width: 480px) {
+    header {
+      background-color: rgb(210, 255, 8);
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    header {
+      background-color: rgb(3, 244, 68);
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    header {
+      background-color: rgb(102, 5, 248);
+    }
+    body {
+
+        background-color: aqua;  
+      }
+  }
+
